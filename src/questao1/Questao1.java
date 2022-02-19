@@ -15,16 +15,26 @@ public class Questao1 {
 		System.out.println("Insira um número e depois tecle Enter.");
 		int entrada = scanner.nextInt();
 
-		String caractere = "* ";
+		String base = "";
+		int altura = 0;
+
+		String caractere = "*";
+		String espaco = " ";
 
 		for(int i=1; i<=entrada; i++){
 
-			if (i == entrada) {
-				caractere = caractere.replace("* ", "*");
-			}
+			altura++;
 
-			System.out.println(caractere.repeat(i));
+			String espacos = espaco.repeat(entrada-i);
+			base = caractere.repeat(i);
+
+			System.out.println(espacos.concat(base));
 
 		}
+
+//		System.out.println(altura);
+//		System.out.println(base.length());
+
 	}
+
 }
