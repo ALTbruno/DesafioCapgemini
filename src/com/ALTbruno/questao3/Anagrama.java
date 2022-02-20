@@ -1,17 +1,17 @@
-package questao3;
+package com.ALTbruno.questao3;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Questao3 {
+public class Anagrama {
 
-//		Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas
-//		para formar a outra palavra.Dada uma string qualquer, desenvolva um algoritmo que encontre o número de
-//		pares de substrings que são anagramas.
+//	Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas
+//	para formar a outra palavra.Dada uma string qualquer, desenvolva um algoritmo que encontre o número de
+//	pares de substrings que são anagramas.
 
-	public static void main(String[] args) {
+	public void encontrarAnagramas() {
 
 		String palavra = "ovo";
 
@@ -65,7 +65,6 @@ public class Questao3 {
 		}
 
 		System.out.println(anagramas.size());
-
 	}
 
 }

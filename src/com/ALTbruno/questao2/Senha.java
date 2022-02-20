@@ -1,10 +1,8 @@
-package questao2;
+package com.ALTbruno.questao2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Questao2 {
-
+public class Senha {
 
 //	Débora se inscreveu em uma rede social para se manter em contato com seus amigos.
 //	A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte.
@@ -19,15 +17,15 @@ public class Questao2 {
 //	Para ajudar Débora, construa um algoritmo que informe qual é o número mínimo de caracteres que devem ser adicionados
 //	para uma string qualquer ser considerada segura.
 
+	private int caracteresAAdicionar = 0;
 
-	public static void main(String[] args) {
+	public void verificarSenha() {
 
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Digite sua senha e depois tecle Enter para verificar.");
 		String senha = scanner.nextLine();
 
-		int caracteresAAdicionar = 0;
 		int tamanhoSenha = senha.length();
 
 		boolean temDigito = senha.matches(".*[0-9].*");
