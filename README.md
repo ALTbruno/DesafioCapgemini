@@ -65,7 +65,7 @@ Caso a senha seja segura deverá será impresso o número zero, caso não seja s
 Neste exemplo inseri a senha Capgemini e foi impresso o número 2. A senha atende os requisitos de tamanho mínimo de 6 caracteres, letra maiúscula, letra minúscula. Mas não atende os requisitos de conter um digito e um caractere especial, sendo, portanto, necessário adicionar 2 caracteres. \
 ![Programa da Questao 2 finalizado](https://images2.imgbox.com/10/c1/t7EMFmsF_o.png)
 
-### Senha
+### Anagramas
 1. Execute o Programa.
 2. Digite 3 e tecle Enter. Será impresso o número de anagramas de substrings da palavra ovo. \
 ![Programa da Questao 3 finalizado](https://images2.imgbox.com/60/92/RHqwwMLv_o.png)
